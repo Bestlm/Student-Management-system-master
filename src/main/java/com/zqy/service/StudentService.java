@@ -59,7 +59,7 @@ public class StudentService {
 
     public Student login(String userName, String password){
         Map<String, Object> map = MapParameter.getInstance()
-                .add("stuNo", userName)
+                .add("stuName", userName)
                 .add("stuPwd", password)
                 .getMap();
         return studentDao.detail(map);
