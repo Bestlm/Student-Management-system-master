@@ -15,7 +15,7 @@
 <!--    ，spring就会去自动扫描base-package对应的路径或者该路径的子包下面的java文件，
 如果扫描到文件中带有@Service,@Component,@Repository,@Controller等这些注解的类，
 则把这些类注册为bean-->
-    <context:component-scan base-package="com.zqy.controller,com.zqy.utils" />
+    <context:component-scan base-package="com.lcs.controller,com.lcs.utils" />
     <mvc:annotation-driven>
 <!--        这个是map集合数据转为json-->
         <mvc:message-converters>
@@ -49,7 +49,7 @@
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**/*"/>
-            <bean class="com.zqy.utils.PathInterceptor"/>
+            <bean class="com.lcs.utils.PathInterceptor"/>
         </mvc:interceptor>
 
 
@@ -60,7 +60,7 @@
             <mvc:exclude-mapping path="/logout"/>
             <mvc:exclude-mapping path="/captcha/*"/>
             <mvc:exclude-mapping path="/static/**"/>
-            <bean class="com.zqy.utils.PermissionInterceptor"/>
+            <bean class="com.lcs.utils.PermissionInterceptor"/>
         </mvc:interceptor>
 
     </mvc:interceptors>
