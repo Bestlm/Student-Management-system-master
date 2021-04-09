@@ -11,7 +11,7 @@
  Target Server Version : 80011
  File Encoding         : 65001
 
- Date: 06/07/2020 22:18:16
+ Date: 03/19/2021 22:18:16
 */
 
 SET NAMES utf8mb4;
@@ -34,13 +34,13 @@ CREATE TABLE `tb_clazz`  (
 -- ----------------------------
 -- Records of tb_clazz
 -- ----------------------------
-INSERT INTO `tb_clazz` VALUES (15, '编程2020101', 17, '');
-INSERT INTO `tb_clazz` VALUES (16, '软件工程2020102', 17, '');
-INSERT INTO `tb_clazz` VALUES (17, '网络通信2020103', 17, '');
-INSERT INTO `tb_clazz` VALUES (18, '英语2020201', 18, '');
-INSERT INTO `tb_clazz` VALUES (19, '日语2020202', 18, '');
-INSERT INTO `tb_clazz` VALUES (20, '电子商务2020301', 19, '');
-INSERT INTO `tb_clazz` VALUES (21, '物流2020302', 19, '');
+INSERT INTO `tb_clazz` VALUES (15, '编程2021101', 17, '');
+INSERT INTO `tb_clazz` VALUES (16, '软件工程2021102', 17, '');
+INSERT INTO `tb_clazz` VALUES (17, '网络通信2021103', 17, '');
+INSERT INTO `tb_clazz` VALUES (18, '英语2021201', 18, '');
+INSERT INTO `tb_clazz` VALUES (19, '日语2021202', 18, '');
+INSERT INTO `tb_clazz` VALUES (20, '电子商务2021301', 19, '');
+INSERT INTO `tb_clazz` VALUES (21, '物流2021302', 19, '');
 
 -- ----------------------------
 -- Table structure for tb_course
@@ -81,7 +81,7 @@ CREATE TABLE `tb_job`  (
 -- ----------------------------
 INSERT INTO `tb_job` VALUES (11, '1111', '2111', 3111, '444111', 9);
 INSERT INTO `tb_job` VALUES (12, '112', '333', 44, '555', 10);
-INSERT INTO `tb_job` VALUES (13, '莫某企业科技公司', '2020-07-01', 15000, '薪水', 11);
+INSERT INTO `tb_job` VALUES (13, '莫某企业科技公司', '2021-07-01', 15000, '薪水', 11);
 
 -- ----------------------------
 -- Table structure for tb_request
@@ -104,9 +104,9 @@ CREATE TABLE `tb_request`  (
 -- ----------------------------
 -- Records of tb_request
 -- ----------------------------
-INSERT INTO `tb_request` VALUES (9, '12312', '3123', '休学', '2020-06-28 22:36:12', 9, 3, '', '休息休息', 'xxxxxxxx');
-INSERT INTO `tb_request` VALUES (11, '某某要休学了。。。', '想出去走走', '辍学', '2020-07-01 21:30:26', 9, 3, 'c6dd7d9f-2b1f-4f46-89ee-5a5744270007.jpg', '教师通过了，。，。。', '管理员修审批了');
-INSERT INTO `tb_request` VALUES (12, '申请休学1个月', '个人私事儿', '休学', '2020-07-05 23:11:15', 16, 1, '7cdedcc1-9920-47a2-8b02-1a177d1bb8fc.jpg', NULL, NULL);
+INSERT INTO `tb_request` VALUES (9, '12312', '3123', '休学', '2021-06-28 22:36:12', 9, 3, '', '休息休息', 'xxxxxxxx');
+INSERT INTO `tb_request` VALUES (11, '某某要休学了。。。', '想出去走走', '辍学', '2021-07-01 21:30:26', 9, 3, 'c6dd7d9f-2b1f-4f46-89ee-5a5744270007.jpg', '教师通过了，。，。。', '管理员修审批了');
+INSERT INTO `tb_request` VALUES (12, '申请休学1个月', '个人私事儿', '休学', '2021-07-05 23:11:15', 16, 1, '7cdedcc1-9920-47a2-8b02-1a177d1bb8fc.jpg', NULL, NULL);
 
 -- ----------------------------
 -- Table structure for tb_score
@@ -152,8 +152,8 @@ CREATE TABLE `tb_section`  (
 -- ----------------------------
 -- Records of tb_section
 -- ----------------------------
-INSERT INTO `tb_section` VALUES (11, 2020, '春季', 15, 4, 4, '');
-INSERT INTO `tb_section` VALUES (12, 2020, '春季', 15, 5, 5, '');
+INSERT INTO `tb_section` VALUES (11, 2021, '春季', 15, 4, 4, '');
+INSERT INTO `tb_section` VALUES (12, 2021, '春季', 15, 5, 5, '');
 
 -- ----------------------------
 -- Table structure for tb_student
@@ -183,14 +183,14 @@ CREATE TABLE `tb_student`  (
 -- ----------------------------
 -- Records of tb_student
 -- ----------------------------
-INSERT INTO `tb_student` VALUES (16, '0001', '李思', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-02 00:00:00', NULL, 15, 17);
-INSERT INTO `tb_student` VALUES (17, '0002', '张三', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-02 00:00:00', NULL, 15, 17);
-INSERT INTO `tb_student` VALUES (19, '0003', '吴涵', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-02 00:00:00', NULL, 16, 17);
-INSERT INTO `tb_student` VALUES (20, '0004', '邵帅', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-03 00:00:00', NULL, 17, 17);
-INSERT INTO `tb_student` VALUES (21, '0005', '张翰', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-02 00:00:00', NULL, 15, 17);
-INSERT INTO `tb_student` VALUES (22, '0006', '李帅', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-02 00:00:00', NULL, 15, 17);
-INSERT INTO `tb_student` VALUES (23, '0007', '胡八一', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-04 00:00:00', NULL, 15, 17);
-INSERT INTO `tb_student` VALUES (24, '0020', 'aa', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2020-07-06 00:00:00', '正常', 15, 17);
+INSERT INTO `tb_student` VALUES (16, '0001', '李思', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-02 00:00:00', NULL, 15, 17);
+INSERT INTO `tb_student` VALUES (17, '0002', '张三', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-02 00:00:00', NULL, 15, 17);
+INSERT INTO `tb_student` VALUES (19, '0003', '吴涵', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-02 00:00:00', NULL, 16, 17);
+INSERT INTO `tb_student` VALUES (20, '0004', '邵帅', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-03 00:00:00', NULL, 17, 17);
+INSERT INTO `tb_student` VALUES (21, '0005', '张翰', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-02 00:00:00', NULL, 15, 17);
+INSERT INTO `tb_student` VALUES (22, '0006', '李帅', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-02 00:00:00', NULL, 15, 17);
+INSERT INTO `tb_student` VALUES (23, '0007', '胡八一', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-04 00:00:00', NULL, 15, 17);
+INSERT INTO `tb_student` VALUES (24, '0020', 'aa', '93a9ded8a9ab7cb69dba0c0575665204', '123123123123123123', '男', NULL, '18533333333', '', '', '', '2021-07-06 00:00:00', '正常', 15, 17);
 
 -- ----------------------------
 -- Table structure for tb_subject

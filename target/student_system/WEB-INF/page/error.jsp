@@ -24,7 +24,7 @@
         contain the requested file.
     </p>
     <p>
-        请 <a href="${basePath}login" style="color: blue;">登录</a>
+       {error} 请<a href="${basePath}login" style="color: blue;">登录</a>
     </p>
 </div>
 </body>
