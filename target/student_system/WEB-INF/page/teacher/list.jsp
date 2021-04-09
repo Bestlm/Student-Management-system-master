@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>老师管理</title>
+    <title>教师管理</title>
 </head>
 <body>
 <div class="layuimini-container layuimini-page-anim">

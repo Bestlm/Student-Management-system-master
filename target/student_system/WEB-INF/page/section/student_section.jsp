@@ -40,7 +40,7 @@
                     {field: 'type', title: '类型'},
                     {field: 'clazzName', title: '班级',templet: '<div>{{d.clazz.clazzName}}</div>'},
                     {field: 'courseName', title: '课程',templet: '<div>{{d.course.courseName}}</div>'},
-                    {field: 'name', title: '老师',templet: '<div>{{d.teacher.name}}</div>'},
+                    {field: 'name', title: '教师',templet: '<div>{{d.teacher.name}}</div>'},
                     {field: 'remark',title: '备注'}
                 ]],
                 done: function(res, page, count){

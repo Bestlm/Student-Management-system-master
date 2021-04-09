@@ -51,7 +51,7 @@
                     <select name="type" lay-verify="required">
                         <option value="">请选择用户类型</option>
                         <option value="1">管理员</option>
-                        <option value="2">老师</option>
+                        <option value="2">教师</option>
                         <option value="3">学生</option>
                     </select>
                 </div>

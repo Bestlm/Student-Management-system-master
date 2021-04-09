@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="layui-form-item">
-                <label class="layui-form-label">老师</label>
+                <label class="layui-form-label">教师</label>
                 <div class="layui-input-block">
                     <select name="teacherId" lay-verify="required">
                         <option value="">请选择</option>
