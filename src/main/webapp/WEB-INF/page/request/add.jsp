@@ -68,7 +68,7 @@
 
         upload.render({
             elem: '#test3'
-            ,url: '${basePath}request/upload' //改成您自己的上传接口
+            ,url: '${basePath}request/upload' //改成自己的上传接口
             ,accept: 'file' //普通文件
             ,done: function(res){
                 $("#attach").val(res.data);

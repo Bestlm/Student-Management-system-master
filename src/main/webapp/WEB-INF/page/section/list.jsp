@@ -76,7 +76,7 @@
                     {field: 'year',  title: '年份'},
                     {field: 'type', title: '类型'},
                     {field: 'courseName', title: '课程',templet: '<div>{{d.course.courseName}}</div>'},
-                    {field: 'name', title: '老师',templet: '<div>{{d.teacher.name}}</div>'},
+                    {field: 'name', title: '教师',templet: '<div>{{d.teacher.name}}</div>'},
                 ]],
                 skin: 'line'
             });

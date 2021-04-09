@@ -4,7 +4,7 @@
     "href": "main"
   },
   "logoInfo": {
-    "title": "学籍管理",
+    "title": "学信管理",
     "image": "static/images/logo.png",
     "href": ""
   },
@@ -35,7 +35,7 @@
           "target": "_self"
         },
         {
-          "title": "老师管理",
+          "title": "教师管理",
           "href": "teacher/list",
           "icon": "fa fa-home",
           "target": "_self"
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "title": "老师管理",
+      "title": "教师管理",
       "icon": "fa fa-address-book",
       "href": "",
       "target": "_self",

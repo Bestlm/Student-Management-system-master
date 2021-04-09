@@ -17,6 +17,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author 刘成舜
+ * @Description:
+ */
 @Controller
 @RequestMapping("/section")
 public class SectionController {
@@ -237,7 +241,7 @@ public class SectionController {
     }
 
     /**
-     * 老师评分
+     * 教师评分
      * @return
      */
     @GetMapping("/teacher_student_score")

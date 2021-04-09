@@ -14,7 +14,7 @@
 		http://www.springframework.org/schema/context
 		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-<context:component-scan base-package="com.zqy.service"/>
+<context:component-scan base-package="com.lcs.service"/>
 <context:property-placeholder location="/WEB-INF/db.properties"></context:property-placeholder>
 
 <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
@@ -30,7 +30,7 @@
         <property name="configLocation" value="/WEB-INF/mybatis-config.xml"></property>
         <property name="mapperLocations">
             <list>
-                <value>classpath:com/zqy/dao/*.xml</value>
+                <value>classpath:com/lcs/dao/*.xml</value>
             </list>
         </property>
 
@@ -52,7 +52,7 @@
 <!--    配置mapper扫描
         有了这一步就service就可以直接调用Dao方法-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.zqy.dao"></property>
+        <property name="basePackage" value="com.lcs.dao"></property>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 
     </bean>

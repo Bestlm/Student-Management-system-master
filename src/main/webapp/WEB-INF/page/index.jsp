@@ -85,7 +85,7 @@
         </div>
     </div>
 
-    <!--无限极左侧菜单-->
+    <!--左侧菜单-->
     <div class="layui-side layui-bg-black layuimini-menu-left">
     </div>
 

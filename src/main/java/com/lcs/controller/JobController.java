@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author 刘成舜
+ * @Description:
+ */
 @Controller
 @RequestMapping("/job")
 public class JobController {

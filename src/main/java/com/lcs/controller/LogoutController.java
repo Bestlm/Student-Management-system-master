@@ -5,6 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.servlet.http.HttpSession;
 
+/**
+ * @author 刘成舜
+ * @Description:
+ */
 @Controller
 public class LogoutController {
 

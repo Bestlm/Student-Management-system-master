@@ -92,7 +92,7 @@
                                         <td class="number" id="teacher">0</td>
                                     </tr>
                                     <tr>
-                                        <td class="txt">老师数量</td>
+                                        <td class="txt">教师数量</td>
                                     </tr>
                                 </table>
                             </li>

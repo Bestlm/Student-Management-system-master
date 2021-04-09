@@ -90,7 +90,7 @@
         from tb_section,tb_student where tb_section.clazz_id = tb_student.clazz_id and tb_student.id = #{studentId}
     </select>
 
-    <!-- 按照老师查询班级开课 -->
+    <!-- 按照教师查询班级开课 -->
     <select id="queryByTeacher" resultMap="Section">
         select tb_section.*
         from tb_section,tb_teacher where tb_section.teacher_id = tb_teacher.id and tb_teacher.id = #{teacherId}

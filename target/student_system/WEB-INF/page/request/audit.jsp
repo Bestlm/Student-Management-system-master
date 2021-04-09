@@ -49,7 +49,7 @@
                 cols: [[
                     {type: "checkbox", width: 50},
                     {field: 'id', width: 80, title: 'ID'},
-                    // {field: 'stuName', title: '姓名'},
+                   // {field: 'stuName', title: '姓名'},
                     {field: 'title',  title: '标题'},
                     {field: 'type',  title: '类型'},
                     {field: 'createDate',  title: '创建日期'},

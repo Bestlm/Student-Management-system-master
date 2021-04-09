@@ -105,7 +105,7 @@ CREATE TABLE `tb_request`  (
 -- Records of tb_request
 -- ----------------------------
 INSERT INTO `tb_request` VALUES (9, '12312', '3123', '休学', '2020-06-28 22:36:12', 9, 3, '', '休息休息', 'xxxxxxxx');
-INSERT INTO `tb_request` VALUES (11, '某某要休学了。。。', '想出去走走', '辍学', '2020-07-01 21:30:26', 9, 3, 'c6dd7d9f-2b1f-4f46-89ee-5a5744270007.jpg', '老师通过了，。，。。', '管理员修审批了');
+INSERT INTO `tb_request` VALUES (11, '某某要休学了。。。', '想出去走走', '辍学', '2020-07-01 21:30:26', 9, 3, 'c6dd7d9f-2b1f-4f46-89ee-5a5744270007.jpg', '教师通过了，。，。。', '管理员修审批了');
 INSERT INTO `tb_request` VALUES (12, '申请休学1个月', '个人私事儿', '休学', '2020-07-05 23:11:15', 16, 1, '7cdedcc1-9920-47a2-8b02-1a177d1bb8fc.jpg', NULL, NULL);
 
 -- ----------------------------

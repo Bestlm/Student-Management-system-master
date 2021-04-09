@@ -1,9 +1,8 @@
 package com.lcs.utils;
 
 /**
- * @author 596183363@qq.com
+ * @author 刘成舜
  * @Description:
- * @date 2020/6/2413:20
  */
 public enum Code {
 

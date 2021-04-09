@@ -5,9 +5,7 @@ import com.lcs.utils.Entity;
 import java.util.Date;
 
 /**
- * 
- * @author 596183363@qq.com
- * @time 2020-06-19 10:28:13
+ * @author 刘成舜
  */
 public class Student  extends Entity {
 

@@ -4,9 +4,7 @@ package com.lcs.entity;
 import com.lcs.utils.Entity;
 
 /**
- * 
- * @author 596183363@qq.com
- * @time 2020-06-19 10:28:13
+ * @author 刘成舜
  */
 public class Clazz extends Entity {
 

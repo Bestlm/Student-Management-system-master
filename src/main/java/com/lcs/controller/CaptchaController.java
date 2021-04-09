@@ -12,9 +12,8 @@ import java.io.IOException;
 import java.util.Random;
 
 /**
- * @author 596183363@qq.com
+ * @author 刘成舜
  * @Description:
- * @date 2020/6/2412:09
  */
 @Controller
 @RequestMapping("/captcha")

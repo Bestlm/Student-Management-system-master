@@ -4,6 +4,9 @@ import com.lcs.utils.Entity;
 
 import java.util.Date;
 
+/**
+ * @author 刘成舜
+ */
 public class Request extends Entity {
 
     private Integer id;
@@ -20,8 +23,8 @@ public class Request extends Entity {
 
     public  enum  StatusType{
 
-        status_1(1,"待老师审批"),
-        status_2(2,"老师已审批，待管理员审批"),
+        status_1(1,"待教师审批"),
+        status_2(2,"教师已审批，待管理员审批"),
         status_3(3,"审批完成"),
         status_4(4,"审批拒绝");
 

@@ -18,6 +18,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 
+/**
+ * @author 刘成舜
+ * @Description:
+ */
 @Controller
 public class LoginController {
 
@@ -59,7 +63,7 @@ public class LoginController {
                 return MapControll.getInstance().error("用户名或密码错误").getMap();
             }
         }
-        //老师登录
+        //教师登录
         if("2".equals(type)){
             Teacher teacher = teacherService.login(userName, MD5Utils.getMD5(password));
             if(teacher != null){

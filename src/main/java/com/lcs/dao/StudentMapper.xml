@@ -123,7 +123,7 @@
         and course_id = #{courseId} and section_id = #{sectionId}
     </select>
 
-    <!-- 老师查询学生-->
+    <!-- 教师查询学生-->
     <select id="queryStudentByTeacher" resultMap="Student">
         select tb_student.* from tb_student,tb_score,tb_section
         where
