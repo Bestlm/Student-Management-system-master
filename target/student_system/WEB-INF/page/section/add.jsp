@@ -10,7 +10,20 @@
 <div class="layuimini-container layuimini-page-anim">
     <div class="layuimini-main width_60">
         <form class="layui-form">
-            <input type="text" name="clazzId" value="${clazzId}">
+            <div class="layui-form-item">
+<%--                <label class="layui-form-label">专业名称</label>--%>
+                <div class="layui-input-block">
+                    <input type="hidden" name="clazzId" value="${clazzId}" class="layui-input">
+                </div>
+            </div>
+            <%-- 班级名称 尚未读取--%>
+            <div class="layui-form-item">
+                <label class="layui-form-label">班级名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="clazzName" value="${clazzName}" class="layui-input">
+                </div>
+            </div>
+
             <div class="layui-form-item">
                 <label class="layui-form-label">年份</label>
                 <div class="layui-input-block">

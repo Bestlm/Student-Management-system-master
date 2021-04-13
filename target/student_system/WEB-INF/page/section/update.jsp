@@ -12,6 +12,12 @@
         <form class="layui-form">
             <input type="hidden" name="id" value="${section.id}">
             <div class="layui-form-item">
+                <label class="layui-form-label">班级名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="clazzName" value="${clazzName}" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
                 <label class="layui-form-label">年份</label>
                 <div class="layui-input-block">
                     <input type="text" name="year" lay-verify="required" value="${section.year}" class="layui-input">

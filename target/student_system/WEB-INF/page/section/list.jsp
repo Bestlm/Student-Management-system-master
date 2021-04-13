@@ -72,11 +72,14 @@
                 page: true,
                 cols: [[
                     {type: "checkbox", width: 50},
-                    {field: 'id', width: 80, title: 'ID'},
-                    {field: 'year',  title: '年份'},
-                    {field: 'type', title: '类型'},
+                    {field: 'id', width: 60, title: 'ID'},
+                    {field: 'year', title: '年份'},
+                    {field: 'clazzId',  title: '专业名称'},
+                    {field: 'clazzName',  title: '班级名称'},
+                    {field: 'type',  title: '类型'},
                     {field: 'courseName', title: '课程',templet: '<div>{{d.course.courseName}}</div>'},
                     {field: 'name', title: '教师',templet: '<div>{{d.teacher.name}}</div>'},
+                    {field: 'remark',title: '备注'},
                 ]],
                 skin: 'line'
             });
