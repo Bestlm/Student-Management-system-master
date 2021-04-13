@@ -16,10 +16,16 @@
                     <input type="hidden" name="stuId" value="${stuId}">
                 </div>
             </div>
+<%--            <div class="layui-form-item">--%>
+<%--                <label class="layui-form-label">就业时间</label>--%>
+<%--                <div class="layui-input-block">--%>
+<%--                    <input type="text" name="jobDate" lay-verify="required" class="layui-input">--%>
+<%--                </div>--%>
+<%--            </div>--%>
             <div class="layui-form-item">
                 <label class="layui-form-label">就业时间</label>
                 <div class="layui-input-block">
-                    <input type="text" name="jobDate" lay-verify="required" class="layui-input">
+                    <input type="text" name="jobDate" autocomplete="off" lay-verify="date" placeholder="yyyy-MM-dd" id="jobDate" class="layui-input">
                 </div>
             </div>
             <div class="layui-form-item">
@@ -53,6 +59,11 @@
 <script src="${basePath}static/lib/layui-src/layui.js" charset="utf-8"></script>
 <script src="${basePath}static/js/lay-config.js?v=2.0.0" charset="utf-8"></script>
 <script>
+    layui.use(['form','jquery','laydate'], function () {
+        var form = layui.form,$ = layui.jquery,laydate=layui.laydate;
+        laydate.render({
+            elem:"#jobDate"
+        })
     layui.use(['form','jquery'], function () {
         var form = layui.form,$ = layui.jquery;
         //获取窗口索引
@@ -73,7 +84,7 @@
             });
             return false;
         });
-    });
+    });})
 </script>
 </body>
 </html>

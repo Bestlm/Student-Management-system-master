@@ -12,6 +12,10 @@ public class Section extends Entity {
 	 */
 	private Integer clazzId;
 	/**
+	 *
+	 */
+	private String clazzName;
+	/**
 	 * 
 	 */
 	private Integer courseId;
@@ -50,6 +54,12 @@ public class Section extends Entity {
 	}
 	public void setClazzId(Integer clazzId) {
 		this.clazzId = clazzId;
+	}
+	public String getClazzName() {
+		return clazzName;
+	}
+	public void setClazzName(String clazzName) {
+		this.clazzName = clazzName;
 	}
 	public Integer getCourseId() {
 		return courseId;

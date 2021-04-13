@@ -4,6 +4,7 @@
     <resultMap type="com.lcs.entity.Section" id="Section">
         <id column="id" property="id"/>
         <result column="clazz_id" property="clazzId"/>
+        <result column="clazz_name" property="clazzName"/>
         <result column="course_id" property="courseId"/>
         <result column="id" property="id"/>
         <result column="remark" property="remark"/>
@@ -19,6 +20,7 @@
     <insert id="create" keyProperty="id" useGeneratedKeys="true" parameterType="com.lcs.entity.Section">
 		insert into tb_section(
 			clazz_id,
+		    clazz_name,
 			course_id,
 			remark,
 			teacher_id,
@@ -26,6 +28,7 @@
 			year
 		)values(
 			#{clazzId},
+            #{clazzName},
 			#{courseId},
 			#{remark},
 			#{teacherId},
@@ -63,6 +66,7 @@
     <sql id="SectionFindCriteria">
         <where>
             <if test="clazzId != null">and clazz_id = #{clazzId}</if>
+            <if test="clazzName != null">and clazz_Name = #{clazzName}</if>
             <if test="courseId != null">and course_id = #{courseId}</if>
             <if test="id != null">and id = #{id}</if>
             <if test="remark != null and remark != ''">and remark = #{remark}</if>
@@ -74,6 +78,7 @@
     <sql id="SectionUpdateCriteria">
         <set>
             <if test="updateClazzId != null">clazz_id = #{updateClazzId},</if>
+            <if test="updateClazzName != null">clazz_name = #{updateClazzName},</if>
             <if test="updateCourseId != null">course_id = #{updateCourseId},</if>
             <if test="updateId != null">id = #{updateId},</if>
             <if test="updateRemark != null and updateRemark != ''">remark = #{updateRemark},</if>
