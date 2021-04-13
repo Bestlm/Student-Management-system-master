@@ -65,7 +65,7 @@
             <if test="updateRemark != null and updateRemark != ''">remark = #{updateRemark},</if>
             <if test="updateTeacherPwd != null and updateTeacherPwd != ''">teacher_pwd = #{updateTeacherPwd},</if>
             <if test="updateTeacherName != null and updateTeacherName != ''">teacher_name = #{updateTeacherName},</if>
-            <if test="name != null and name != ''">name = #{name},</if>
+            <if test="updateName != null and updateName != ''">name = #{updateName},</if>
         </set>
     </sql>
 </mapper>
